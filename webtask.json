@@ -33,6 +33,9 @@
     "LOG_TYPES":     {
       "description": "If you only want to send events with a specific type (eg: failed logins)",
       "example": "e.g.: 's' for Success Login, 'du' for Deleted User, etc"
+    },
+    "LOG_START_FROM": {
+      "description": "(Optional) Configure which log to start the scheduled job from"
     }
   }
 }

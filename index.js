@@ -19,7 +19,7 @@ function lastLogCheckpoint(req, res) {
   req.webtaskContext.storage.get((err, data) => {
     if (err && err.output.statusCode !== 404) return res.status(err.code).send(err);
 
-    let startCheckpointId = typeof data === 'undefined' ? null : data.checkpointId;
+    let startCheckpointId = typeof data === 'undefined' ? (ctx.data.LOG_START_FROM || null) : data.checkpointId;
 
     // Start the process.
     async.waterfall([
