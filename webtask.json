@@ -1,8 +1,8 @@
 {
-  "title": "Auth0 Authentication API webhooks",
-  "name": "auth0-authentication-api-webhooks",
+  "title": "Cimpress-Auth0 Authentication API webhooks",
+  "name": "cimpress-auth0-authentication-api-webhooks",
   "version": "1.4.0",
-  "author": "auth0",
+  "author": "JDC",
   "description": "Allows you to define webhooks for Auth0's Authentication API. It will go through the audit logs and call a webhook for specific events.",
   "type": "cron",
   "logoUrl": "https://cdn.auth0.com/extensions/auth0-authentication-api-webhooks/assets/logo.png",
