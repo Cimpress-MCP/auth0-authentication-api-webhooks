@@ -28,7 +28,7 @@
     },
     "LOG_LEVEL":     {
       "description": "This allows you to specify the log level of events that need to be sent",
-      "example": "e.g.: 1 for Debug messages, 2 for Info messages, etc"
+      "example": "e.g.: 0 for Debug messages, 1 for Info messages, etc"
     },
     "LOG_TYPES":     {
       "description": "If you only want to send events with a specific type (eg: failed logins)",
@@ -36,6 +36,15 @@
     },
     "LOG_START_FROM": {
       "description": "(Optional) Configure which log to start the scheduled job from"
+    },
+    "WEBHOOK_AUTH_CLIENT_ID": {
+      "descrption": "(Optional) The client id to be exchanged for an access token for the WEBHOOK_URL"
+    },
+    "WEBHOOK_AUTH_CLIENT_SECRET": {
+      "description": "(Optional) The client secret to be exchanged for an access token for the WEBHOOK_URL"
+    },
+    "WEBHOOK_AUTH_RESOURCE_SERVER": {
+      "description": "(Optional) The resource server granting access to the client for the WEBHOOK_URL"
     }
   }
 }
