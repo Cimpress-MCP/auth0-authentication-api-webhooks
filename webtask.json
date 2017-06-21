@@ -38,7 +38,7 @@
       "description": "(Optional) Configure which log to start the scheduled job from"
     },
     "WEBHOOK_AUTH_CLIENT_ID": {
-      "descrption": "(Optional) The client id to be exchanged for an access token for the WEBHOOK_URL"
+      "description": "(Optional) The client id to be exchanged for an access token for the WEBHOOK_URL"
     },
     "WEBHOOK_AUTH_CLIENT_SECRET": {
       "description": "(Optional) The client secret to be exchanged for an access token for the WEBHOOK_URL"
